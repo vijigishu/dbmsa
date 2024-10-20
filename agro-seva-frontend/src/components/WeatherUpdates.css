@@ -1,0 +1,56 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px; /* Limit width */
+    margin: auto; /* Center horizontally */
+    position: relative;
+    top: 50px;
+    height: 390px;
+}
+
+.city-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* width: 30px; */
+}
+
+.city-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.city-form button {
+    padding: 10px 15px;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.city-form button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.weather-card {
+    text-align: center;
+    background-color: #fff; /* White background for the weather card */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+    font-size: 50px; /* Size of the icon */
+    color: #ffcc00; /* Color for the weather icon */
+}
